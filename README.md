@@ -1,8 +1,8 @@
 #green_project
 
-# Project 3 - Alternative Fuels for Vehicles across the United States
-## UC Davis Data and Analytics Bootcamp 
-## Team Members: Chris Chaney, Justin Dean, Katherine Winder, Madeline Gutieruiz, and Riley Unverferth
+# Project 3 - Alternative Energy Sources for Vehicles across the United States
+UC Davis Data and Analytics Bootcamp 
+Team Members: Chris Chaney, Justin Dean, Katherine Winder, Madeline Gutieruiz, and Riley Unverferth
 
 # Project Description
 
