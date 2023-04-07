@@ -25,3 +25,4 @@ This project will be looking at alternative fueling stations for vehicles throug
 ## Conclusion
 
 ## Citation
+Alternative fuels and advanced vehicles. Alternative Fuels Data Center: Alternative Fuels and Advanced Vehicles. (n.d.). Retrieved April 6, 2023, from https://afdc.energy.gov/fuels/ 
