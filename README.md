@@ -1,5 +1,3 @@
-# green_project
-
 # Project 3 - Alternative Energy Sources for Vehicles across the United States
 ### UC Davis Data and Analytics Bootcamp 
 
