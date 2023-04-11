@@ -8,7 +8,7 @@
       "Alt_Fuel_Stations_2014": 3395,
       "Alt_Fuel_Stations_2021": 14936,
       "Total_Growth": 13515,
-      "Growth Rate(Percent)": "9.51",
+      "Growth_Rate_Percent": "9.51",
       "ev_Registration_Count": 563070
     },
     {
@@ -20,7 +20,7 @@
       "Alt_Fuel_Stations_2014": 1487,
       "Alt_Fuel_Stations_2021": 3006,
       "Total_Growth": 2137,
-      "Growth Rate(Percent)": "28.91",
+      "Growth_Rate_Percent": "28.91",
       "ev_Registration_Count": 80900
     },
     {
@@ -32,7 +32,7 @@
       "Alt_Fuel_Stations_2014": 815,
       "Alt_Fuel_Stations_2021": 2826,
       "Total_Growth": 2417,
-      "Growth Rate(Percent)": "14.47",
+      "Growth_Rate_Percent": "14.47",
       "ev_Registration_Count": 95640
     },
     {
@@ -44,7 +44,7 @@
       "Alt_Fuel_Stations_2014": 850,
       "Alt_Fuel_Stations_2021": 2971,
       "Total_Growth": 2514,
-      "Growth Rate(Percent)": "15.38",
+      "Growth_Rate_Percent": "15.38",
       "ev_Registration_Count": 51870
     },
     {
@@ -56,7 +56,7 @@
       "Alt_Fuel_Stations_2014": 481,
       "Alt_Fuel_Stations_2021": 1416,
       "Total_Growth": 1240,
-      "Growth Rate(Percent)": "12.43",
+      "Growth_Rate_Percent": "12.43",
       "ev_Registration_Count": 26770
     },
     {
@@ -68,7 +68,7 @@
       "Alt_Fuel_Stations_2014": 849,
       "Alt_Fuel_Stations_2021": 1455,
       "Total_Growth": 980,
-      "Growth Rate(Percent)": "32.65",
+      "Growth_Rate_Percent": "32.65",
       "ev_Registration_Count": 36520
     },
     {
@@ -80,7 +80,7 @@
       "Alt_Fuel_Stations_2014": 452,
       "Alt_Fuel_Stations_2021": 1198,
       "Total_Growth": 958,
-      "Growth Rate(Percent)": "20.03",
+      "Growth_Rate_Percent": "20.03",
       "ev_Registration_Count": 21200
     },
     {
@@ -92,7 +92,7 @@
       "Alt_Fuel_Stations_2014": 553,
       "Alt_Fuel_Stations_2021": 1764,
       "Total_Growth": 1540,
-      "Growth Rate(Percent)": "12.70",
+      "Growth_Rate_Percent": "12.70",
       "ev_Registration_Count": 34020
     },
     {
@@ -104,7 +104,7 @@
       "Alt_Fuel_Stations_2014": 582,
       "Alt_Fuel_Stations_2021": 1376,
       "Total_Growth": 1039,
-      "Growth Rate(Percent)": "24.49",
+      "Growth_Rate_Percent": "24.49",
       "ev_Registration_Count": 25190
     },
     {
@@ -116,7 +116,7 @@
       "Alt_Fuel_Stations_2014": 668,
       "Alt_Fuel_Stations_2021": 1151,
       "Total_Growth": 753,
-      "Growth Rate(Percent)": "34.58",
+      "Growth_Rate_Percent": "34.58",
       "ev_Registration_Count": 17460
     },
     {
@@ -128,7 +128,7 @@
       "Alt_Fuel_Stations_2014": 213,
       "Alt_Fuel_Stations_2021": 766,
       "Total_Growth": 691,
-      "Growth Rate(Percent)": "9.79",
+      "Growth_Rate_Percent": "9.79",
       "ev_Registration_Count": 47830
     },
     {
@@ -140,7 +140,7 @@
       "Alt_Fuel_Stations_2014": 399,
       "Alt_Fuel_Stations_2021": 1207,
       "Total_Growth": 1042,
-      "Growth Rate(Percent)": "13.67",
+      "Growth_Rate_Percent": "13.67",
       "ev_Registration_Count": 30660
     },
     {
@@ -152,7 +152,7 @@
       "Alt_Fuel_Stations_2014": 718,
       "Alt_Fuel_Stations_2021": 1843,
       "Total_Growth": 1446,
-      "Growth Rate(Percent)": "21.54",
+      "Growth_Rate_Percent": "21.54",
       "ev_Registration_Count": 66810
     },
     {
@@ -164,7 +164,7 @@
       "Alt_Fuel_Stations_2014": 550,
       "Alt_Fuel_Stations_2021": 1019,
       "Total_Growth": 839,
-      "Growth Rate(Percent)": "17.66",
+      "Growth_Rate_Percent": "17.66",
       "ev_Registration_Count": 40740
     },
     {
@@ -176,7 +176,7 @@
       "Alt_Fuel_Stations_2014": 618,
       "Alt_Fuel_Stations_2021": 867,
       "Total_Growth": 610,
-      "Growth Rate(Percent)": "29.64",
+      "Growth_Rate_Percent": "29.64",
       "ev_Registration_Count": 12160
     },
     {
@@ -188,7 +188,7 @@
       "Alt_Fuel_Stations_2014": 385,
       "Alt_Fuel_Stations_2021": 1952,
       "Total_Growth": 1842,
-      "Growth Rate(Percent)": "5.64",
+      "Growth_Rate_Percent": "5.64",
       "ev_Registration_Count": 30470
     },
     {
@@ -200,7 +200,7 @@
       "Alt_Fuel_Stations_2014": 554,
       "Alt_Fuel_Stations_2021": 678,
       "Total_Growth": 305,
-      "Growth Rate(Percent)": "55.01",
+      "Growth_Rate_Percent": "55.01",
       "ev_Registration_Count": 10360
     },
     {
@@ -212,7 +212,7 @@
       "Alt_Fuel_Stations_2014": 321,
       "Alt_Fuel_Stations_2021": 1222,
       "Total_Growth": 1003,
-      "Growth Rate(Percent)": "17.92",
+      "Growth_Rate_Percent": "17.92",
       "ev_Registration_Count": 10050
     },
     {
@@ -224,7 +224,7 @@
       "Alt_Fuel_Stations_2014": 373,
       "Alt_Fuel_Stations_2021": 1291,
       "Total_Growth": 1105,
-      "Growth Rate(Percent)": "14.41",
+      "Growth_Rate_Percent": "14.41",
       "ev_Registration_Count": 25630
     },
     {
@@ -236,7 +236,7 @@
       "Alt_Fuel_Stations_2014": 461,
       "Alt_Fuel_Stations_2021": 845,
       "Total_Growth": 593,
-      "Growth Rate(Percent)": "29.82",
+      "Growth_Rate_Percent": "29.82",
       "ev_Registration_Count": 9330
     },
     {
@@ -248,7 +248,7 @@
       "Alt_Fuel_Stations_2014": 444,
       "Alt_Fuel_Stations_2021": 1670,
       "Total_Growth": 1414,
-      "Growth Rate(Percent)": "15.33",
+      "Growth_Rate_Percent": "15.33",
       "ev_Registration_Count": 37000
     },
     {
@@ -260,7 +260,7 @@
       "Alt_Fuel_Stations_2014": 561,
       "Alt_Fuel_Stations_2021": 1235,
       "Total_Growth": 767,
-      "Growth Rate(Percent)": "37.89",
+      "Growth_Rate_Percent": "37.89",
       "ev_Registration_Count": 15000
     },
     {
@@ -272,7 +272,7 @@
       "Alt_Fuel_Stations_2014": 338,
       "Alt_Fuel_Stations_2021": 519,
       "Total_Growth": 301,
-      "Growth Rate(Percent)": "42.00",
+      "Growth_Rate_Percent": "42.00",
       "ev_Registration_Count": 7440
     },
     {
@@ -284,7 +284,7 @@
       "Alt_Fuel_Stations_2014": 247,
       "Alt_Fuel_Stations_2021": 403,
       "Total_Growth": 251,
-      "Growth Rate(Percent)": "37.72",
+      "Growth_Rate_Percent": "37.72",
       "ev_Registration_Count": 4750
     },
     {
@@ -296,7 +296,7 @@
       "Alt_Fuel_Stations_2014": 125,
       "Alt_Fuel_Stations_2021": 259,
       "Total_Growth": 199,
-      "Growth Rate(Percent)": "23.17",
+      "Growth_Rate_Percent": "23.17",
       "ev_Registration_Count": 3180
     },
     {
@@ -308,7 +308,7 @@
       "Alt_Fuel_Stations_2014": 180,
       "Alt_Fuel_Stations_2021": 284,
       "Total_Growth": 204,
-      "Growth Rate(Percent)": "28.17",
+      "Growth_Rate_Percent": "28.17",
       "ev_Registration_Count": 4220
     },
     {
@@ -320,7 +320,7 @@
       "Alt_Fuel_Stations_2014": 519,
       "Alt_Fuel_Stations_2021": 1053,
       "Total_Growth": 809,
-      "Growth Rate(Percent)": "23.17",
+      "Growth_Rate_Percent": "23.17",
       "ev_Registration_Count": 30290
     },
     {
@@ -332,7 +332,7 @@
       "Alt_Fuel_Stations_2014": 329,
       "Alt_Fuel_Stations_2021": 611,
       "Total_Growth": 457,
-      "Growth Rate(Percent)": "25.20",
+      "Growth_Rate_Percent": "25.20",
       "ev_Registration_Count": 7080
     },
     {
@@ -344,7 +344,7 @@
       "Alt_Fuel_Stations_2014": 250,
       "Alt_Fuel_Stations_2021": 562,
       "Total_Growth": 452,
-      "Growth Rate(Percent)": "19.57",
+      "Growth_Rate_Percent": "19.57",
       "ev_Registration_Count": 13350
     },
     {
@@ -356,7 +356,7 @@
       "Alt_Fuel_Stations_2014": 223,
       "Alt_Fuel_Stations_2021": 939,
       "Total_Growth": 789,
-      "Growth Rate(Percent)": "15.97",
+      "Growth_Rate_Percent": "15.97",
       "ev_Registration_Count": 16480
     },
     {
@@ -368,7 +368,7 @@
       "Alt_Fuel_Stations_2014": 318,
       "Alt_Fuel_Stations_2021": 640,
       "Total_Growth": 416,
-      "Growth Rate(Percent)": "35.00",
+      "Growth_Rate_Percent": "35.00",
       "ev_Registration_Count": 3660
     },
     {
@@ -380,7 +380,7 @@
       "Alt_Fuel_Stations_2014": 172,
       "Alt_Fuel_Stations_2021": 491,
       "Total_Growth": 397,
-      "Growth Rate(Percent)": "19.14",
+      "Growth_Rate_Percent": "19.14",
       "ev_Registration_Count": 17380
     },
     {
@@ -392,7 +392,7 @@
       "Alt_Fuel_Stations_2014": 154,
       "Alt_Fuel_Stations_2021": 278,
       "Total_Growth": 175,
-      "Growth Rate(Percent)": "37.05",
+      "Growth_Rate_Percent": "37.05",
       "ev_Registration_Count": 2390
     },
     {
@@ -404,7 +404,7 @@
       "Alt_Fuel_Stations_2014": 166,
       "Alt_Fuel_Stations_2021": 199,
       "Total_Growth": 148,
-      "Growth Rate(Percent)": "25.63",
+      "Growth_Rate_Percent": "25.63",
       "ev_Registration_Count": 1310
     },
     {
@@ -416,7 +416,7 @@
       "Alt_Fuel_Stations_2014": 209,
       "Alt_Fuel_Stations_2021": 612,
       "Total_Growth": 500,
-      "Growth Rate(Percent)": "18.30",
+      "Growth_Rate_Percent": "18.30",
       "ev_Registration_Count": 4500
     },
     {
@@ -428,7 +428,7 @@
       "Alt_Fuel_Stations_2014": 111,
       "Alt_Fuel_Stations_2021": 260,
       "Total_Growth": 176,
-      "Growth Rate(Percent)": "32.31",
+      "Growth_Rate_Percent": "32.31",
       "ev_Registration_Count": 4150
     },
     {
@@ -440,7 +440,7 @@
       "Alt_Fuel_Stations_2014": 149,
       "Alt_Fuel_Stations_2021": 291,
       "Total_Growth": 193,
-      "Growth Rate(Percent)": "33.68",
+      "Growth_Rate_Percent": "33.68",
       "ev_Registration_Count": 2710
     },
     {
@@ -452,7 +452,7 @@
       "Alt_Fuel_Stations_2014": 78,
       "Alt_Fuel_Stations_2021": 177,
       "Total_Growth": 120,
-      "Growth Rate(Percent)": "32.20",
+      "Growth_Rate_Percent": "32.20",
       "ev_Registration_Count": 3500
     },
     {
@@ -464,7 +464,7 @@
       "Alt_Fuel_Stations_2014": 55,
       "Alt_Fuel_Stations_2021": 159,
       "Total_Growth": 140,
-      "Growth Rate(Percent)": "11.95",
+      "Growth_Rate_Percent": "11.95",
       "ev_Registration_Count": 1010
     },
     {
@@ -476,7 +476,7 @@
       "Alt_Fuel_Stations_2014": 206,
       "Alt_Fuel_Stations_2021": 407,
       "Total_Growth": 369,
-      "Growth Rate(Percent)": "9.34",
+      "Growth_Rate_Percent": "9.34",
       "ev_Registration_Count": 14220
     },
     {
@@ -488,7 +488,7 @@
       "Alt_Fuel_Stations_2014": 75,
       "Alt_Fuel_Stations_2021": 176,
       "Total_Growth": 138,
-      "Growth Rate(Percent)": "21.59",
+      "Growth_Rate_Percent": "21.59",
       "ev_Registration_Count": 4000
     },
     {
@@ -500,7 +500,7 @@
       "Alt_Fuel_Stations_2014": 62,
       "Alt_Fuel_Stations_2021": 282,
       "Total_Growth": 266,
-      "Growth Rate(Percent)": "5.67",
+      "Growth_Rate_Percent": "5.67",
       "ev_Registration_Count": 3040
     },
     {
@@ -512,7 +512,7 @@
       "Alt_Fuel_Stations_2014": 71,
       "Alt_Fuel_Stations_2021": 99,
       "Total_Growth": 44,
-      "Growth Rate(Percent)": "55.56",
+      "Growth_Rate_Percent": "55.56",
       "ev_Registration_Count": 1650
     },
     {
@@ -524,7 +524,7 @@
       "Alt_Fuel_Stations_2014": 80,
       "Alt_Fuel_Stations_2021": 240,
       "Total_Growth": 222,
-      "Growth Rate(Percent)": "7.50",
+      "Growth_Rate_Percent": "7.50",
       "ev_Registration_Count": 2550
     },
     {
@@ -536,7 +536,7 @@
       "Alt_Fuel_Stations_2014": 29,
       "Alt_Fuel_Stations_2021": 127,
       "Total_Growth": 121,
-      "Growth Rate(Percent)": "4.72",
+      "Growth_Rate_Percent": "4.72",
       "ev_Registration_Count": 3010
     },
     {
@@ -548,7 +548,7 @@
       "Alt_Fuel_Stations_2014": 122,
       "Alt_Fuel_Stations_2021": 153,
       "Total_Growth": 34,
-      "Growth Rate(Percent)": "77.78",
+      "Growth_Rate_Percent": "77.78",
       "ev_Registration_Count": 680
     },
     {
@@ -560,7 +560,7 @@
       "Alt_Fuel_Stations_2014": 98,
       "Alt_Fuel_Stations_2021": 124,
       "Total_Growth": 26,
-      "Growth Rate(Percent)": "79.03",
+      "Growth_Rate_Percent": "79.03",
       "ev_Registration_Count": 380
     },
     {
@@ -572,7 +572,7 @@
       "Alt_Fuel_Stations_2014": 8,
       "Alt_Fuel_Stations_2021": 44,
       "Total_Growth": 35,
-      "Growth Rate(Percent)": "20.45",
+      "Growth_Rate_Percent": "20.45",
       "ev_Registration_Count": 1290
     },
     {
@@ -584,7 +584,7 @@
       "Alt_Fuel_Stations_2014": 82,
       "Alt_Fuel_Stations_2021": 291,
       "Total_Growth": 252,
-      "Growth Rate(Percent)": "13.40",
+      "Growth_Rate_Percent": "13.40",
       "ev_Registration_Count": 3700
     },
     {
@@ -596,7 +596,7 @@
       "Alt_Fuel_Stations_2014": 72,
       "Alt_Fuel_Stations_2021": 318,
       "Total_Growth": 301,
-      "Growth Rate(Percent)": "5.35",
+      "Growth_Rate_Percent": "5.35",
       "ev_Registration_Count": 3370
     },
     {
@@ -608,7 +608,7 @@
       "Alt_Fuel_Stations_2014": 72,
       "Alt_Fuel_Stations_2021": 103,
       "Total_Growth": 52,
-      "Growth Rate(Percent)": "49.51",
+      "Growth_Rate_Percent": "49.51",
       "ev_Registration_Count": 510
     }
   ]

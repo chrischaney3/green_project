@@ -4,7 +4,7 @@ d3.json("pop_with_ev.json").then(function(data) {
     var state = data.map(function(d) { return d.state; });
     var population = data.map(function(d) { return d.population; });
     var ev_stations2021 = data.map(function(d) { return d.ev_stations2021; });
-    var growth_rate = data.map(function(d) { return d.growth; });
+    var growth_rate = data.map(function(d) { return d.growth growth_rate; });
 
   
     // Create trace for population

@@ -1,4 +1,4 @@
-Rank,State,Population_2021,State Abbrv.,Alt_Fuel_Stations_2012,Alt_Fuel_Stations_2014,Alt_Fuel_Stations_2021,Total_Growth,Growth Rate(Percent),ev_Registration_Count
+Rank,State,Population_2021,State Abbrv.,Alt_Fuel_Stations_2012,Alt_Fuel_Stations_2014,Alt_Fuel_Stations_2021,Total_Growth,Growth_Rate_Percent,ev_Registration_Count
 1,California,39029342,CA,1421,3395,14936,13515,9.51,563070
 2,Texas,30029572,TX,869,1487,3006,2137,28.91,80900
 3,Florida,22244823,FL,409,815,2826,2417,14.47,95640
