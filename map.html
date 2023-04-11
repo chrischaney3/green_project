@@ -21,10 +21,19 @@
 
 <body>
   <!-- The div where we'll insert our map -->
+  <select id="selDataset">
+    <option value="2012">2012</option>
+    <option value="2014">2014</option>
+    <option value="2021">2021</option>
+</select>
   <div id="map"></div>
 
   <!-- JavaScript file -->
-  <script type="text/javascript" src="logic.js"></script>
+  
+  <script src="2012_data.js"></script>
+  <script src="2014_data.js"></script>
+  <script src="2021_data.js"></script>
+  <script src="mapper.js"></script>
 </body>
 
 </html>
