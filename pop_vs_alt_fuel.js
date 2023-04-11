@@ -1,25 +1,23 @@
 d3.json("pop_with_ev.json").then(function(data) {
 
     // Set variables
-    var state = data.map(function(d) { return d.state; });
-    var population = data.map(function(d) { return d.population; });
-    var ev_stations2021 = data.map(function(d) { return d.ev_stations2021; });
-    var growth_rate = data.map(function(d) { return d.growth growth_rate; });
-
+    var state = data.map(function(d) { return d.State; });
+    var EV_Owners = data.map(function(d) { return d.ev_Registration_Count; });
+    var EV_Stations2021	 = data.map(function(d) { return d.Alt_Fuel_Stations_2021; });
   
-    // Create trace for population
+    // Create trace for EV Owners
     var trace1 = {
       x: state,
-      y: population,
-      name: "Population",
+      y: EV_Owners,
+      name: "EV Owners",
       type: "bar"
     };
   
-    // Create trace for emissions
+    // Create trace for EV Stations
     var trace2 = {
-      x: countries,
-      y: emissions,
-      name: "Emissions",
+      x: state,
+      y: EV_Stations2021,
+      name: "Ev Stations",
       type: "bar"
     };
   
@@ -28,16 +26,44 @@ d3.json("pop_with_ev.json").then(function(data) {
   
     // Set layout options
     var layout = {
-      title: "Population and Emissions by Country",
-      xaxis: { title: "Country" },
-      yaxis: { title: "Population/Emissions" }
+      title: "<b>EV Stations vs Registerd EV Owners<b>",
+      xaxis: { title: "State" },
+      yaxis: { title: "EV Stations/EV Owners" }
     };
   
     // Plot the graph
     Plotly.newPlot("plotly-div", data, layout);
   });
-
-
+  {
+    // Create trace for EV Owners
+    var trace1 = {
+        x: state,
+        y: EV_Owners,
+        name: "EV Owners",
+        type: "bar"
+      };
+    
+      // Create trace for EV Stations
+      var trace2 = {
+        x: state,
+        y: EV_Stations2021,
+        name: "Ev Stations",
+        type: "bar"
+      };
+    
+      // Combine traces into a data array
+      var data = [trace1, trace2];
+    
+      // Set layout options
+      var layout = {
+        title: "<b>EV Stations vs Registerd EV Owners<b>",
+        xaxis: { title: "State" },
+        yaxis: { title: "EV Stations/EV Owners" }
+      };
+    
+      // Plot the graph
+      Plotly.newPlot("plotly-div2", data, layout);
+    };
 
 
 
