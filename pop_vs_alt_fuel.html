@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>My HTML Page</title>
-    <!-- Include the Plotly library -->
-	<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <title>My HTML Page</title>
+    <!-- Include the Plotly and D3 libraries -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <script src="https://d3js.org/d3.v7.min.js"></script>
 </head>
-<script src="pop_with_ev.json"></script>
-<script src="pop_vs_alt_fuel.js"></script>
-<body>
-    <h1>EV Owners vs Alternative Fuel Stations</h1>
 
-<!-- Add a div element with the ID 'myPlot' -->
-<div id="plotly-div"></div>
-</head>
-	
-<script src="pop_with_ev.json"></script>
-<script src="pop_vs_alt_fuel.js"></script>
 <body>
-    <h1>Alternative Fuel Stations</h1>
+    <h1>EV Owners vs EV Stations</h1>
 
-<!-- Add a div element with the ID 'myPlot' -->
-<div id="plotly-div2"></div>
-</head>
+    <!-- Add a div element with the ID 'plotly-div' for the first plot -->
+    <div id="plotly-div"></div>
+    <script src="pop_with_ev.json"></script>
+    <script src="pop_vs_alt_fuel.js"></script>
+
+    <!-- Add a div element with the ID 'plotly-div2' for the second plot -->
+    <div id="plotly-div2"></div>
+    <script src="pop_with_ev.json"></script>
+    <script src="pop_vs_alt_fuel.js"></script>
+
+    <!-- Add a div element with the ID 'plotly-div3' for the third plot -->
+    <div id="plotly-div3"></div>
+    <script src="pop_with_ev.json"></script>
+    <script src="pop_vs_alt_fuel.js"></script>
 </body>
+
 </html>
