@@ -1,9 +1,3 @@
-// Randomly select an episode number for Star Wars
-let text = d3.select(".star-wars")
-  .text(Math.floor(Math.random() * 9) + 1);
-
-// Select the counter h3 element
-let counter = d3.select(".counter");
 
 // Select the buttons and use D3 `.on` to attach a click handler
 d3.selectAll("button").on("click", function() {
@@ -24,3 +18,13 @@ d3.selectAll("button").on("click", function() {
   counter.text(currentCount);
 
 });
+
+var instance = M.Tabs.init(el, options);
+
+  // Or with jQuery
+
+  $(document).ready(function(){
+    $('.tabs').tabs();
+  });
+  
+  
