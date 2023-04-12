@@ -1,0 +1,9 @@
+<head>
+  <style>
+    .intro-text {
+      width: 600px; /* set the width of the block */
+      height: 400px; /* set the height of the block */
+      overflow: auto; /* restrict overflow and add a scroll bar */
+    }
+  </style>
+</head>
