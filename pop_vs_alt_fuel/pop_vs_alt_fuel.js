@@ -89,4 +89,4 @@ d3.json("pop_with_ev.json").then(function(data) {
 
 });
 
-console.log('Is this Working')
+console.log('Checking things out')
