@@ -40,6 +40,14 @@ The plotly map displays the locations of available alternative fueling stations 
 This graph represents the growth rate of EV stations in the US from 2012-2021. When the plots are toggled over we can see the growth rate percentages, and the size of the points represents the amount of EV stations in each state. For example, North Dakota is represented by a small dot, but has the largest growth rate in the country over the 9 year period.
 [image]
 
+This graph represents the US population ordered by state included to visualize the difference in population across the US.
+![Screenshot 2023-04-12 at 11 09 52 PM](https://user-images.githubusercontent.com/112666732/231668955-893aeecf-43d1-40f5-bc0d-f3fa0eaf5b95.png)
+This representation includes registered EV owners in each state along with the number of stations to show the disparity between vehicles and stations. 
+![Screenshot 2023-04-12 at 11 10 24 PM](https://user-images.githubusercontent.com/112666732/231669042-444cf747-0c0c-42a6-a006-9e393ce17cbf.png)
+top 10 to see the disparity better
+![Screenshot 2023-04-12 at 11 10 50 PM](https://user-images.githubusercontent.com/112666732/231669126-eb53b13e-da80-4286-a251-773c672e69cc.png)
+
+
 ## Conclusion
 There has been a lot of growth in the amount of alternative fueling stations throughout the United States from 2012 to 2021. All 50 states do have alternative fueling stations. The highest concentration of charging stations is in California, which went from 1,421 stations in 2012 to 14,963 in 2021, however California also has the most electric vehicles per capita. There more public charging stations than private, however we were not able to visualize where the majority of private versus public stations are located. 
 
