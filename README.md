@@ -28,10 +28,15 @@ This project will be looking at alternative fueling stations for vehicles throug
 - Where is the highest concentration of charging stations?
 
 ## Analysis
-
+The Flask Powered API used a sqlite database created from a csv file for each year analyzed (2012, 2014, 2021) to:
+- Return a JSON representation of the different fueling station types
+- Return a JSON representation of the station names
+- Query the cities in each state that have electric vehicle charging stations
+- Get a count of all the charging stations in each state
+- Query the accessibility of each station by counting the amount of public, private, planned, and univailable charging stations
 
 ## Conclusion
-There has been a lot of growth in the amount of alternative fueling stations throughout the United States from 2012 to 2021. All 50 states do have alternative fueling stations. The highest concentration of charging stations is in 
+There has been a lot of growth in the amount of alternative fueling stations throughout the United States from 2012 to 2021. All 50 states do have alternative fueling stations. The highest concentration of charging stations is in California, which went from 1,421 stations in 2012 to 14,963 in 2021, however California also has the most electric vehicles per capita. There more public charging stations than private, however we were not able to visualize where the majority of private versus public stations are located. 
 
 ## Citation
 Alternative fuels and advanced vehicles. Alternative Fuels Data Center: Alternative Fuels and Advanced Vehicles. (n.d.). Retrieved April 6, 2023, from https://afdc.energy.gov/fuels/ 
