@@ -13,9 +13,9 @@ This project will be looking at alternative fueling stations for vehicles throug
 ## Data Used
 ### Original Data Sources
 
-Alternative Fueling Stations: https://catalog.data.gov/dataset/alternative-fueling-station-locations-422f2 
-Renewable and Alternative Fuels Data and statistics: https://catalog.data.gov/dataset/renewable-and-alternative-fuels-data-and-statistics 
-Census Data: https://www.statsamerica.org/sip/rank_list.aspx?rank_label=pop1&ct=S18
+- Alternative Fueling Stations: https://catalog.data.gov/dataset/alternative-fueling-station-locations-422f2 
+- Renewable and Alternative Fuels Data and statistics: https://catalog.data.gov/dataset/renewable-and-alternative-fuels-data-and-statistics 
+- Census Data: https://www.statsamerica.org/sip/rank_list.aspx?rank_label=pop1&ct=S18
 
 ### Cleaned Data
 
