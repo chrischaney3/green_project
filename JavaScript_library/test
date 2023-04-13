@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Types of Fuel</title>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <style>
+        body {
+          background-color: white;
+        }
+    
+        .jumbotron {
+          background: #15d1b2 linear-gradient(#399fe4, #cafae2);
+          background-size: 100% 100%;
+          overflow: auto;
+          width: 100%;
+          height: 100%;
+          margin: 0;
+          padding: 0;
+        }
+    </style>
+    <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous"
+    /> 
+
+     <style>
+      .piechart-intro {
+        width: 875px;
+        overflow: auto;
+      }
+    
+    </style>
+
+</head>
+
+
+<body>
+  <!--Jumbotron and GIF-->
+        <div class="container">
+          <div class="jumbotron" style="text-align:center">
+            <h2>Types of Alternative Fuels</h2>
+              <img src="https://ubernewsroomapi.10upcdn.com/wp-content/uploads/2022/04/adoption_retarget1_em01_animation01_m_2x.gif" alt="Animated GIF" width="828" height="327"> </img>
+          </div>
+        </div>
+     
+  <!--Tab Functions using materialize-->
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+
+  <div class="container">
+    <div class="row">
+      <div class="col s12">
+           <!-- Tabs -->
+          <ul class="tabs tabs-fixed-width tab-demo z-depth-1">
+            <li class="tab"><a target="_self" style="background-color: #399fe4; color: white" href="JavaScript_Library.html">Home</a></li>
+            <li class="tab"><a target="_blank" style="background-color: #399fe4; color: white" href="/Map/map.html">Map</a></li>
+            <li class="tab"><a target="_self" style="background-color: #399fe4; color: white" href="/pop_vs_alt_fuel/pop_vs_alt_fuel.html">EV Owners vs EV Stations</a></li>
+            <li class="tab"><a target="_self" style="background-color: #399fe4; color: white" href="/growthRate/growthChart.html">EV Growth Rate</a></li>
+            <li class="tab"><a target="_self" style="background-color: #399fe4; color: white" href="/Plotly/Pie_graph.html">Types of Fuel</a></li>
+            <li class="tab"><a target="_self" style="background-color: #399fe4; color: white" href="/Plotly/PublicVsPrivate.HTML">Public vs Private</a></li>
+          </ul>
+      </div>
+    </div>
+  </div>
+
+
+  <!--Paragraph text-->
+    <div>
+        <div class="col-md-offset-1 col-md-1"></div>
+            <p id="myParagraph" class="piechart-intro" style="font-size: 18px;">View the types of alternative fueling stations avaible across the United States in 2021. See what type of fuel is aviable in the private versus the public.</p>
+    </div>
+    
+                
+   
+  <div id="pie"></div>
+
+  <!-- Pie Chart and DropDown Menu-->
+  <label>
+    <select id="selDataset">
+      <option value="Chart1">Alternative fueling stations avaible in 2012</option>
+      <option value="Chart2">Alternative fueling stations avaible in 2014</option>
+      <option value="Chart3">Alternative fueling stations avaible in 2021</option>
+    </select>
+  </label>
+  
+  <p>Data Sources:<br />
+      <ul>
+          <li>
+            <a href="https://catalog.data.gov/dataset/alternative-fueling-station-locations-422f2  ">Alternative Fueling Stations</a>
+          </li>
+          <li>
+            <a href="https://catalog.data.gov/dataset/renewable-and-alternative-fuels-data-and-statistics">Renewable and Alternative Fuels Data and statistics</a>
+          </li>
+      </ul>
+  </p>
+
+  <script src="2012_data.js"></script>
+  <script src="2014_data.js"></script>
+  <script src="2021_data.js"></script>
+  <script src="Pie_graph.js"></script>
+
+</body>
+</html>
+
