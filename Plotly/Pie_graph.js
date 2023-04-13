@@ -36,13 +36,13 @@ function getData() {
   // Initialize an empty array for the country's data
   let data = [];
 
-  if (dataset == 'Chart 1') {
+  if (dataset == "Chart 1") {
       data = data1;
   }
-  else if (dataset == 'Chart 2') {
+  else if (dataset == "Chart 2") {
       data = data2;
   }
-  else if (dataset == 'Chart 3') {
+  else if (dataset == "Chart 3") {
       data = data3;
   }
 
@@ -52,6 +52,9 @@ function getData() {
 
 // Update the restyled plot's values
 function updatePlotly(newdata) {
+  let update = {
+    values: [newdata]
+  };
   Plotly.restyle("pie", "values", [newdata]);
 }
 
