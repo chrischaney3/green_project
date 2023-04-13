@@ -1,56 +1,52 @@
-// Data for three different pie charts
-let data1 = Object.values(data2012.map(item => 1))
-let data2 = Object.values(data2014.map(item => 1))
-let data3 = Object.values(data2021.map(item => 1))
+console.log(data2012)
+console.log(data2014)
+console.log(data2021) 
 
-let labels = data2012.map(item => item["Groups With Access Code"]);
 
-// Display the default plot
-function init() {
-  let data = [{
-    values: data1, 
-    labels: labels,
-    type: "pie"
-  }];
+let data4 = Object.values(data2012.map(item => 1))
+let data5 = Object.values(data2014.map(item => 1))
+let data6 = Object.values(data2021.map(item => 1))
 
-  let layout = {
-    height: 600,
-    width: "50%",
-    title: "Publicly assessable fueling stations vs Private fueling stations"
-  };
+let label4 = data2012.map(item => item["Groups With Access Code"]);
+let label5 = data2014.map(item => item["Groups With Access Code"]);
+let label6 = data2021.map(item => item["Groups With Access Code"]);
 
-  Plotly.newPlot("pie", data, layout);
-}
+var pie12 = [{
+  values: Object.values(data2012.map(item => 1)), 
+  labels: label4,
+  type: "pie"
+}];
+var layout4 = {
+  height: 600,
+  width: "50%",
+  title: "Alternative fueling stations available in 2012"
+};
 
-// On change to the DOM, call getData()
-d3.selectAll("#selDataset").on("change", getData);
+Plotly.newPlot('pie12', pie12, layout4);
 
-// Function called by DOM changes
-function getData() {
-  let dropdownMenu = d3.select("#selDataset");
-  // Assign the value of the dropdown menu option to a letiable
-  let dataset = dropdownMenu.property("value");
-  // Initialize an empty array for the country's data
-  let data = [];
 
-  if (dataset == 'Chart 1') {
-      data = data1;
-  }
-  else if (dataset == 'Chart 2') {
-      data = data2;
-  }
-  else if (dataset == 'Chart 3') {
-      data = data3;
-  }
+var pie14 = [{
+  values: Object.values(data2014.map(item => 1)), 
+  labels: label5,
+  type: "pie"
+}];
+var layout5 = {
+  height: 600,
+  width: "50%",
+  title: "Alternative fueling stations available in 2014"
+};
 
-// Call function to update the chart
-  updatePlotly(data);
-}
+Plotly.newPlot('pie14', pie14, layout5);
 
-// Update the restyled plot's values
-function updatePlotly(newdata) {
-  Plotly.restyle("pie", "values", [newdata]);
-}
+var pie21 = [{
+  values: Object.values(data2021.map(item => 1)), 
+  labels: label6,
+  type: "pie"
+}];
+var layout6 = {
+  height: 600,
+  width: "50%",
+  title: "Alternative fueling stations available in 2021"
+};
 
-init();
-  
+Plotly.newPlot('pie21', pie21, layout6);
