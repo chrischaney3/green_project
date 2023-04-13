@@ -31,7 +31,7 @@ This project will be looking at alternative fueling stations for vehicles throug
 
 
 ## Conclusion
-There has been a lot of growth in the amount of alternative fueling stations throughout the United States from 2012 to 2021. 
+There has been a lot of growth in the amount of alternative fueling stations throughout the United States from 2012 to 2021. All 50 states do have alternative fueling stations. The highest concentration of charging stations is in 
 
 ## Citation
 Alternative fuels and advanced vehicles. Alternative Fuels Data Center: Alternative Fuels and Advanced Vehicles. (n.d.). Retrieved April 6, 2023, from https://afdc.energy.gov/fuels/ 
