@@ -5,138 +5,61 @@ console.log("2021 Data: ", data2021);
 
 mapCenter = [38.147853, -98.612973];
 
-var myMap = null;
-var baseMaps = null;
-var overlayMaps = null;
+var markers2012 = [];
+var markers2014 = [];
+var markers2021 = [];
 
-function createMap(altStations) {
+function createMarkers(data) {
+  for (var i = 0; i < data.length; i++) {
+    var station = data[i];
 
-  var countryMap = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-  });
-
-  baseMaps = {
-    "Country Map": countryMap
-  };
-
-  overlayMaps = {
-    "Alternative Fuel Stations": altStations
-  };
-
-  myMap = L.map("map", {
-    center: mapCenter,
-    zoom: 5,
-    layers: [countryMap, altStations]
-  });
-
-  L.control.layers(baseMaps, overlayMaps, {
-    collapsed: false
-  }).addTo(myMap);
-}
-
-function createMarkers(stations) {
-
-  var stationMarkers = [];
-
-  for (var i = 0; i < stations.length; i++) {
-    var station = stations[i];
-
-    var marker = L.marker([Number(station.Latitude), Number(station.Longitude)]).bindPopup("Station Name: "
+    var marker = L.marker([parseFloat(station.Latitude), parseFloat(station.Longitude)]).bindPopup("Station Name: "
     + station["Station Name"] + "<br>Location: " + station.City + ", " + station.State);
 
-    stationMarkers.push(marker);
+    if (data == data2012) {
+      markers2012.push(marker);
+    }
+    else if (data == data2014) {
+      markers2014.push(marker);
+    }
+    else if (data == data2021) {
+      markers2021.push(marker);
+    }
   }
-
-  console.log("test: ", stationMarkers.length)
-
-  createMap(L.layerGroup(stationMarkers));
 }
 
 createMarkers(data2012);
+createMarkers(data2014);
+createMarkers(data2021);
 
-d3.selectAll("#selDataset").on("change", getData);
+console.log("# of 2012 markers: ", markers2012.length)
+console.log("# of 2014 markers: ", markers2014.length)
+console.log("# of 2021 markers: ", markers2021.length)
 
-function getData() {
-  let dropdownMenu = d3.select("#selDataset");
+var countryMap = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+});
 
-  let dataset = dropdownMenu.property("value");
+var layer2012 = L.layerGroup(markers2012);
+var layer2014 = L.layerGroup(markers2014);
+var layer2021 = L.layerGroup(markers2021);
 
-  let newData = [];
+var baseMaps = {
+  "Country Map": countryMap
+};
 
-  if (dataset == '2012') {
-      newData = data2012;
-  }
-  else if (dataset == '2014') {
-      newData = data2014;
-  }
-  else if (dataset == '2021') {
-      newData = data2021;
-  }
-
-  if(myMap) {
-    myMap = myMap.off();
-    myMap = myMap.remove();
-  }
-
-  createMarkers(newData);
+var overlayMaps = {
+  "2012": layer2012,
+  "2014": layer2014,
+  "2021": layer2021
 }
 
+var myMap = L.map("map", {
+  center: mapCenter,
+  zoom: 5,
+  layers: [countryMap, layer2012, layer2014, layer2021]
+});
 
-
-
-
-
-
-
-
-/*var markers2012 = createMarkers(data2012);
-var markers2014 = createMarkers(data2014);
-var markers2021 = createMarkers(data2021);
-
-var allMarkers = [markers2012, markers2014, markers2021];
-
-createMap(L.layerGroup(allMarkers));*/
-
-/*
-var 
-
-function createMarkers(data) {
-
-  var markers = L.markerClusterGroup();
-
-
-
-  var stationMarkers =[];
-
-  for (var i = 0; i > data.length; i++)
-    var station = data[i];
-
-    var marker = L.marker([Number(data["Latitude"]), Number(data["Longitude"])]).bindPopup("Station Name: "
-    + data["Station Name"] + "<br>Location: " + data["City"] + ", " + data["State"]);
-
-    stationMarkers.push(marker);
-    
-}
-
-d3.selectAll("#selDataset").on("change", getData);
-
-function getData() {
-  let dropdownMenu = d3.select("#selDataset");
-
-  let dataset = dropdownMenu.property("value");
-
-  let data = [];
-
-  if (dataset == '2012') {
-      data = data2012;
-  }
-  else if (dataset == '2014') {
-      data = data2014;
-  }
-  else if (dataset == '2021') {
-      data = data2021;
-  }
-
-  updateMap(data);
-}*/
-
+L.control.layers(baseMaps, overlayMaps, {
+  collapsed: false
+}).addTo(myMap);
