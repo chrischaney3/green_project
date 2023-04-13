@@ -13,7 +13,12 @@ This project will be looking at alternative fueling stations for vehicles throug
 ## Data Used
 ### Original Data Sources
 
+Alternative Fueling Stations: https://catalog.data.gov/dataset/alternative-fueling-station-locations-422f2 
+Renewable and Alternative Fuels Data and statistics: https://catalog.data.gov/dataset/renewable-and-alternative-fuels-data-and-statistics 
+Census Data: https://www.statsamerica.org/sip/rank_list.aspx?rank_label=pop1&ct=S18
+
 ### Cleaned Data
+
 
 ## Research Questions
 - What states have alternative fueling stations?
@@ -24,7 +29,9 @@ This project will be looking at alternative fueling stations for vehicles throug
 
 ## Analysis
 
+
 ## Conclusion
+There has been a lot of growth in the amount of alternative fueling stations throughout the United States from 2012 to 2021. 
 
 ## Citation
 Alternative fuels and advanced vehicles. Alternative Fuels Data Center: Alternative Fuels and Advanced Vehicles. (n.d.). Retrieved April 6, 2023, from https://afdc.energy.gov/fuels/ 
