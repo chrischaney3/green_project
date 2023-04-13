@@ -6,25 +6,83 @@
     <!-- Include the Plotly and D3 libraries -->
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <script src="https://d3js.org/d3.v7.min.js"></script>
+
+
+    <!--Materialize CSS Javascript Library-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+   
+   <style>
+        body {
+          background-color: white;
+        }
+  
+        .jumbotron {
+          background: #15d1b2 linear-gradient(#399fe4, #cafae2);
+          background-size: 100% 100%;
+          overflow: auto;
+          width: 100%;
+          height: 100%;
+          margin: 0;
+          padding: 0;
+        }
+      </style>
+
+
 </head>
 
+    
+
 <body>
-    <h1>EV Owners vs EV Stations</h1>
+    <!--Jumbotron and GIF-->
+    <div class="container">
+        <div class="jumbotron" style="text-align:center">
+          <h2>EV Owners vs EV Stations</h2>
+          <style>
+            <h1> {
+              font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+          </style>
+            <img src="https://ubernewsroomapi.10upcdn.com/wp-content/uploads/2022/04/adoption_retarget1_em01_animation01_m_2x.gif" alt="Animated GIF" width="828" height="327">
+          </body>  
+        </div>
+      </div>
+      
+      <!--Tab Functions using materialize-->
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+  
+        <div class="container">
+          <div class="row">
+            <div class="col s12">
+              <!-- Tabs -->
+              <ul class="tabs tabs-fixed-width tab-demo z-depth-1">
+                <li class="tab"><a target="_self" style="background-color: #399fe4; color: white" href="http://127.0.0.1:5501/JavaScript_Library/JavaScript_Library.html">Home</a>
+                <li class="tab"><a class="active" style="background-color: #399fe4; color: white" href="#test2">Map</a></li>
+                <li class="tab"><a target="_self" style="background-color: #399fe4; color: white" href="#test0">EV Owners vs EV Stations</a></li>
+                <li class="tab"><a target="_self" style="background-color: #399fe4; color: white" href="#test0">EV Growth Rate</a></li>
+                <li class="tab"><a target="_self" style="background-color: #399fe4; color: white" href="http://127.0.0.1:5501/Plotly/Pie_graph.html">Types of Fuel</a></li>
+                <li class="tab"><a target="_self" style="background-color: #399fe4; color: white" href="http://127.0.0.1:5500/PublicVsPrivate.HTML">Public vs Private</a></li>
+              </ul>
+      
+      <div>
 
-    <!-- Add a div element with the ID 'plotly-div' for the first plot -->
-    <div id="plotly-div"></div>
-    <script src="pop_with_ev.json"></script>
-    <script src="pop_vs_alt_fuel.js"></script>
 
-    <!-- Add a div element with the ID 'plotly-div2' for the second plot -->
-    <div id="plotly-div2"></div>
-    <script src="pop_with_ev.json"></script>
-    <script src="pop_vs_alt_fuel.js"></script>
+        <!-- Add a div element with the ID 'plotly-div' for the first plot -->
+            <div id="plotly-div"></div>
+            <script src="pop_with_ev.json"></script>
+            <script src="pop_vs_alt_fuel.js"></script>
 
-    <!-- Add a div element with the ID 'plotly-div3' for the third plot -->
-    <div id="plotly-div3"></div>
-    <script src="pop_with_ev.json"></script>
-    <script src="pop_vs_alt_fuel.js"></script>
+            <!-- Add a div element with the ID 'plotly-div2' for the second plot -->
+            <div id="plotly-div2"></div>
+            <script src="pop_with_ev.json"></script>
+            <script src="pop_vs_alt_fuel.js"></script>
+
+            <!-- Add a div element with the ID 'plotly-div3' for the third plot -->
+            <div id="plotly-div3"></div>
+            <script src="pop_with_ev.json"></script>
+            <script src="pop_vs_alt_fuel.js"></script>
 </body>
 
 </html>
