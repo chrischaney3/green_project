@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -14,18 +15,23 @@
   <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
     integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
     crossorigin=""></script>
+
+  <!-- Our CSS -->
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
   <!-- The div where we'll insert our map -->
   <div id="map"></div>
 
+  <!-- Leaflet heatmap plugin-->
+  <script type="text/javascript" src="leaflet-heat.js"></script>
+
   <!-- JavaScript file -->
-  
-  <script src="2012_data.js"></script>
-  <script src="2014_data.js"></script>
-  <script src="2021_data.js"></script>
-  <script src="mapper.js" charset="utf-8"></script>
+  <script type="text/javascript" src="2012_data.js"></script>
+  <script type="text/javascript" src="2014_data.js"></script>
+  <script type="text/javascript" src="2021_data.js"></script>
+  <script type="text/javascript" src="mapper.js"></script>
 </body>
 
 </html>
