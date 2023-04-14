@@ -59,10 +59,19 @@ Here we narrow down the data to the states with the top 10 most electric vehicle
 ![Screenshot 2023-04-12 at 11 10 24 PM](https://user-images.githubusercontent.com/112666732/231669042-444cf747-0c0c-42a6-a006-9e393ce17cbf.png)
 
 
-The pie charts visualize the different types of alternative fueling stations over the 9 year period that we analyzed. The growth of electric vehicle charging stations over all types of alternative fueling stations became the vast majority between 2012 and 2021.
+The pie charts below visualize the different types of alternative fueling stations over the 9 year period that we analyzed. The growth of electric vehicle charging stations over all types of alternative fueling stations became the vast majority between 2012 and 2021.
 <img width="704" alt="Screenshot 2023-04-13 at 12 37 16 PM" src="https://user-images.githubusercontent.com/112666732/231865280-377066d7-4fd5-49b3-bd63-7002cd9fba54.png">
 <img width="703" alt="Screenshot 2023-04-13 at 12 40 32 PM" src="https://user-images.githubusercontent.com/112666732/231865898-fddf4c03-477d-4f01-bc8c-bd8a8969272a.png">
 <img width="701" alt="Screenshot 2023-04-13 at 12 40 55 PM" src="https://user-images.githubusercontent.com/112666732/231865966-7d93825b-1783-496d-948d-33c4c859df9e.png">
+
+
+The pie charts below visualize public versus private alternative fueling stations over the 9 year period that we analyzed. Overall we are seeing more public alternative charging stations compared to the private charging stations.
+
+![pie_access2012](https://github.com/chrischaney3/green_project/blob/main/Images/pie_access2012.png)
+
+![pie_access2014](https://github.com/chrischaney3/green_project/blob/main/Images/pie_access2014.png)
+
+![pie_access2021](https://github.com/chrischaney3/green_project/blob/main/Images/pie_access2021.png)
 
 
 ## Conclusion
