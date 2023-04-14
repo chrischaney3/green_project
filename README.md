@@ -18,7 +18,7 @@ This project will be looking at alternative fueling stations for vehicles throug
 - Census Data: https://www.statsamerica.org/sip/rank_list.aspx?rank_label=pop1&ct=S18
 
 ### Cleaned Data
-
+We cleaned the json and csv files by eliminating irrelevant columns, merging additional data from the census, and exporting new json and sqlite dataframes for data analysis.
 
 ## Research Questions
 - What states have alternative fueling stations?
