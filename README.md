@@ -46,7 +46,7 @@ These maps visualize the extreme growth of electric vehicle charging stations sp
 
 
 This graph represents the growth rate of EV stations in the US from 2012-2021. When the plots are toggled over we can see the growth rate percentages, and the size of the points represents the amount of EV stations in each state. For example, North Dakota is represented by a small dot, but has the largest growth rate in the country over the 9 year period.
-[image]
+![Screenshot 2023-04-13 at 6 16 29 PM](https://user-images.githubusercontent.com/112666732/231916327-04a7b0d6-6852-4c0d-9032-f314304839a6.png)
 
 
 This graph represents the US population ordered by state which was included to visualize the difference in population across the US.
