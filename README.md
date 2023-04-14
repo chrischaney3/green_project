@@ -22,7 +22,7 @@ We cleaned the json and csv files by eliminating irrelevant columns, merging add
 
 ## Research Questions
 - What states have alternative fueling stations?
-- What type of fueling stations are the most common within these states? 
+- What type of fueling stations are the most common in the US? 
 - How many of these stations are private vs public?
 - What are the charging stations per capita
 - Where is the highest concentration of charging stations?
