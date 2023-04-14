@@ -19,7 +19,7 @@ var pie12 = [{
 var layout4 = {
   height: 600,
   width: "50%",
-  title: "Alternative fueling stations available in 2012"
+  title: "Alternative Fuel Station Accessibility across the U.S. in 2012"
 };
 
 Plotly.newPlot('pie12', pie12, layout4);
@@ -33,7 +33,7 @@ var pie14 = [{
 var layout5 = {
   height: 600,
   width: "50%",
-  title: "Alternative fueling stations available in 2014"
+  title: "Alternative Fuel Station Accessibility across the U.S. in 2014"
 };
 
 Plotly.newPlot('pie14', pie14, layout5);
@@ -46,7 +46,7 @@ var pie21 = [{
 var layout6 = {
   height: 600,
   width: "50%",
-  title: "Alternative fueling stations available in 2021"
+  title: "Alternative Fuel Station Accessibility across the U.S. in 2021"
 };
 
 Plotly.newPlot('pie21', pie21, layout6);
