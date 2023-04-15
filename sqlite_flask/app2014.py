@@ -21,20 +21,23 @@ Base.classes.keys()
 Data = Base.classes.ev_data_2014
 
 # Flask Setup
-app = Flask(__name__)
+app = Flask(__name__, template_folder='templateFiles', static_folder='staticFiles')
+@app.route('/')
+def home():
+   return render_template('index.html')
 
 # Flask Routes
-@app.route("/")
-def welcome():
-    return (
-        f"Welcome to the Electric Vehicle Charging Stations API 2014!<br/>"
-        f"Available Routes:<br/>"
-        f"/fuelingStationTypes<br>"
-        f"/name<br>"
-        f"/cities<br>"
-        f"/count<br>"
-        f"/accissibility<br>"
-    )
+# @app.route("/")
+# def welcome():
+#     return (
+#         f"Welcome to the Electric Vehicle Charging Stations API 2014!<br/>"
+#         f"Available Routes:<br/>"
+#         f"/fuelingStationTypes<br>"
+#         f"/name<br>"
+#         f"/cities<br>"
+#         f"/count<br>"
+#         f"/accissibility<br>"
+#     )
 
 # Route for fueling station types
 @app.route("/fuelingStationTypes")
